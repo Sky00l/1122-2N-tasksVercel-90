@@ -1,11 +1,10 @@
-
 import { Link } from 'react-router-dom';
 import { useCabinsOpen } from '../features/cabins/useCabinsOpen';
 import CabinsList from '../components/CabinsListOpen';
 
 const Landing_xx = () => {
   const { cabins, isLoading } = useCabinsOpen();
-  
+
   return (
     <>
       <div className='wild-oasis'>
@@ -18,6 +17,14 @@ const Landing_xx = () => {
               </Link>
               <nav className='z-10 text-xl'>
                 <ul className='flex gap-16 items-center'>
+                  <li>
+                    <Link
+                      className='hover:text-accent-400 transition-colors'
+                      to='/cabins'
+                    >
+                      Home_90
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       className='hover:text-accent-400 transition-colors'
@@ -55,7 +62,7 @@ const Landing_xx = () => {
             </div>
           </header>
           <div className='flex-1 px-8 py-12 grid'>
-           <CabinsList cabins={cabins}/>
+            <CabinsList cabins={cabins} />
           </div>
         </div>
       </div>
