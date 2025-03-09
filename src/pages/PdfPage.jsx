@@ -40,7 +40,7 @@ const PdfPage = () => {
           <div className="pdf-container">
             <h1>About PDF</h1>
             <embed
-              src="public/wp2-2N_90.pdf"  // 正確的路徑
+              src="/wp2-2N_90.pdf"  // 正確的路徑
               type="application/pdf"
               width="100%"
               height="800px"
