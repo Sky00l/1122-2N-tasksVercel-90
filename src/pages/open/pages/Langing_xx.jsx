@@ -32,7 +32,7 @@ const Landing_xx = () => {
                       className='hover:text-accent-400 transition-colors'
                       to='/about-pdf'
                     >
-                      About
+                      README
                     </Link>
                   </li>
                   <li>

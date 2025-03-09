@@ -24,9 +24,9 @@ const LandingStatic_xx = () => {
                   <li>
                     <Link
                       className='hover:text-accent-400 transition-colors'
-                      to='/about'
+                      to='/about-pdf'
                     >
-                      About
+                      README
                     </Link>
                   </li>
                   <li>
