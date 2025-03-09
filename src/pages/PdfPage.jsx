@@ -19,7 +19,7 @@ const PdfPage = () => {
                 </li>
                 <li>
                   <Link className="hover:text-accent-400 transition-colors" to="/about-pdf">
-                    About
+                    README
                   </Link>
                 </li>
                 <li>
@@ -38,7 +38,7 @@ const PdfPage = () => {
         </header>
         <div className="flex-1 px-8 py-12 grid">
           <div className="pdf-container">
-            <h1>About PDF</h1>
+            <h1>Demo 說明</h1>
             <embed
               src="/wp2-2N_90.pdf"  // 正確的路徑
               type="application/pdf"
